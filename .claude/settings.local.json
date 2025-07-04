@@ -1,0 +1,20 @@
+{
+  "fileAccess": {
+    "enabled": true,
+    "directories": [
+      "src",
+      "backend",
+      "examples",
+      "PRPs",
+      "docs",
+      "tests"
+    ]
+  },
+  "webSearch": {
+    "enabled": true
+  },
+  "commandExecution": {
+    "enabled": true,
+    "commands": ["npm", "pip", "pytest", "vitest", "pnpm", "yarn"]
+  }
+}
